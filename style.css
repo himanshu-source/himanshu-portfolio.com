@@ -1,0 +1,219 @@
+body{
+    background-image: url(photo1.jpg);
+    background-repeat: no-repeat;
+}
+.septheme{
+    clear: both;
+}
+h1{
+    float: left;
+    width: 60px;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a{
+    float: right;
+    padding: 15px;
+    border-collapse: collapse;
+    text-decoration: none;
+}
+.desitheme{
+    padding: 8px 20px;
+    font-weight: 700;
+    border-radius: 0;
+    margin: 25px;
+    overflow: hidden;
+    position: relative;
+    color: black;
+}
+.desitheme:hover{
+    background: transparent;
+    box-shadow: 5px 5px 5px 5px orange;
+}
+.photheme{
+    position: relative;
+    float: right;
+    width: 20%;
+    top: 15px;
+}
+.phtheme{
+    position: relative;
+    right: 200px;
+}
+h2{
+    position: relative;
+    left: 200px;
+    
+}
+.poptheme{
+    padding-left: 5%;
+    height: 150px;
+    font-style: italic;
+}
+h3{
+    position: relative;
+    left: 945px;
+    bottom: 85%;
+}
+.box{
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    width: 100%;
+    height: 45%;
+}
+.buttontheme{
+    position: relative;
+    left: 180px;
+    bottom: 20%;
+    background-color: transparent;
+}
+.pngtheme{
+    position: relative;
+    width: 20%;
+    top: 15px;
+    left: 140px;
+}
+.ptheme{
+    position: relative;
+    padding-left: 50%;
+    font-style: italic;
+    bottom: 230px;
+}
+.paratheme{
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    width: 100%;
+    height: 45%;
+}
+.skills{
+    position: relative;
+    width: 100%;
+    max-width: 600%;
+    padding: 0 50px;
+    top: 20%;
+}
+.skill-name{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.skill-bar{
+    height: 14px;
+    background: white;
+    border-radius: 3px;
+    width: 40%;
+}
+.skill-per{
+    height: 14px;
+    background: #CE234F;
+    border-radius: 3px;
+    position: relative;
+    animation: progress 2.5s 1;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: white;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.skill-per::after{
+    content: '';
+    background: white;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: -18px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+@keyframes progress {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+h4{
+    text-align: right;
+    position: relative;
+    right: 41%;
+    margin-top: 10%;
+    font-size: 25px;
+}
+.headtheme{
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    width: 45%;
+    height: 110%;
+  
+}
+.container{
+    display: flex; /* or display: grid; */
+  justify-content: flex-end; /* Align items to the right */
+  height: 45vh; /* Example height for the container */
+  align-items: center; /* Center vertically, if needed */
+  margin-top: -150px;
+}
+.goaltheme{
+    position: relative;
+    right: -110px;
+}
+h5{
+    position: relative;
+    bottom: -18%;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 100px;
+}
+.emailtheme{
+    position: relative;
+    text-align: left;
+    float: none;
+    left: -1080px;
+    bottom: -80px;
+}
+h6{
+    position: relative;
+    bottom: -130px;
+    font-size: 20px;
+}
+.phonetheme{
+    position: relative;
+    left: -450px;
+    bottom: -40px;
+}
+h7{
+    position: relative;
+    right: -500px;
+    bottom: -60px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.followtheme{
+    position: relative;
+    right: -1050px;
+    bottom: -20px;
+}
+.profiletheme{
+    position: relative;
+    right: -165px;
+    font-size: 30px;
+}
+.headingtheme{
+    position: relative;
+    bottom: -130px;
+}
+
